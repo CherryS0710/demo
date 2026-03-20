@@ -5,6 +5,7 @@ public class StudentEntity {
     private String email;
     private int marks;
 
+
     public String getName() {
         return name;
     }
@@ -12,6 +13,7 @@ public class StudentEntity {
     public void setName(String name) {
         this.name = name;
     }
+
 
     public String getEmail() {
         return email;
